@@ -10,7 +10,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Freeurlbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001805346080"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "875770605"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Rushidhar:Rushi@@123456789@cluster0.bquxnkr.mongodb.net/?retryWrites=true&w=majority")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:aman@cluster0.chnpche.mongodb.net/?retryWrites=true&w=majority")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001668318959")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001547162655")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
