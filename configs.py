@@ -6,8 +6,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "9411723"))
 	API_HASH = os.environ.get("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5697406374:AAHSirCZGGoYLGHX6doDHyOaFAphRw7GEBE")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "Freeurlbot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5623022245:AAEBv8u4s1xICJ7zUuaOacrsxmGlqbKHNjU")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "store_mebot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001805346080"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "875770605"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:aman@cluster0.chnpche.mongodb.net/?retryWrites=true&w=majority")
