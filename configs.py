@@ -6,8 +6,8 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "9411723"))
 	API_HASH = os.environ.get("API_HASH", "30fa091455c0548d77dc254f0bb705b0")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5318485620:AAE5zOel4th6fXDwoFk5ix7IGK2SdWnyI_w")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "store_mebot")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5449037903:AAG6n8Bq4ZYPbv1RlJTj4ByFCRo1jAuanvk")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_to_Link_TGBOT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001805346080"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "875770605"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aman:aman@cluster0.chnpche.mongodb.net/?retryWrites=true&w=majority")
@@ -30,13 +30,11 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 │
 ├🔹📚 **Library:** [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦](https://docs.pyrogram.org)
 │
-├🔹📡 **Hosted On:** [VPS](https://GOOGLE.com)
-│
 ├🔸👨‍💻 **Developer:** [@AmanReDX](https://t.me/AmanReDX) 
 │
 ├🔹👥 **Bot Support:** [𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/+grDf-fqfBJg0Nzc1)
 │
-├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/+grDf-fqfBJg0Nzc1)
+├🔸🔔 **Bot Updates:** [𝐔𝐩𝐝𝐚𝐭𝐞𝐬](https://t.me/+MBUtZo__7Yc4NzM9)
 │
 ╰──────[ 😎 ]───────────⍟
 """
@@ -50,11 +48,7 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
 
-How to Use Bot & it's Benefits??
-
 📢 Send me any File & It will be uploaded in My Database & You will Get the File Link.
 
 ⚠️ Benefits: If you have a TeleGram Movie Channel or Any Copyright Channel, Then Its Useful for Daily Usage, You can Send Me Your File & I will Send Permanent Link to You & Channel will be Safe from **CopyRight Infringement** Issue. I support Channel Also You Can Check **About Bot**.
-
-❌ **PORNOGRAPHY CONTENTS** are strictly prohibited & get Permanent Ban.
 """
