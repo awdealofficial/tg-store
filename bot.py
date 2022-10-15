@@ -82,7 +82,7 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/marvel_dc_home"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/redxbotlist"),
                         InlineKeyboardButton(" Support Group", url="https://t.me/+grDf-fqfBJg0Nzc1")
                     ]
                 ]
